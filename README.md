@@ -1,16 +1,16 @@
-# Title: Selective News
+# Title: LLM Amazon Affiliate Business
 
 ---
 
 ## Overview
 
-The visison is to ideally give whichever category of news the user wishes to see when running the code
+The vision is to have a llm equiped with amazon dataset who will provide further details and reviews from websearch after shortlisting the item from database based on the users requiremnets.
 
 ---
 
 ## Reason for Picking Up This Project
 
-The reason of doing this is because I believe I will have the option to use almost everything I learned throughout the course for this goal. I will have human in the loop dictate what news categories I want to see, then lets say the user choose sports and stocks then I will have web search on both topics parallely. Then convert the retrieved documents to use semantic search and rag application. Then building the nodes and graph we cover and implement almost all the topics throughout the course.
+The first idea was selective news where the user asks for specific categories which llm provides but it was too basic. The new plan will be harder to do but more interesting. The plan is to download a huge dataset fro kaggle then upload it to langsmith. Use RAG and Semantic search for better implementaion of llm and course purposes. Do parallel web search for final shortlisted items from users requirements but when pren presenting the links replace it with our affliate link by adding the affliate tag. This part wont be fully implemented tho as you need to have a website to your name and get verified by amazon. This function will remain but just as proof of concept. And finally I will build the nodes and graphs showing the workings and parallel components. So after everything all the concepts that we needed to learn throughout the course will be used in this project.
 
 ---
 
@@ -18,7 +18,10 @@ The reason of doing this is because I believe I will have the option to use almo
 
 I plan to execute these steps to complete my project:
 
-- [TODO] Step 1
+- [DONE] Step 1 Downloading the amazon sub Dataset from kaggle and then formating it and upload to langsmith database. This process failed at beginning due to size constraints then I uploaded it in chunks. Fun fact- The uploading process alone took 34 minutes.
+  <img width="1561" height="1046" alt="image" src="https://github.com/user-attachments/assets/86a3fe8c-a4b6-4532-a7ff-c7315ae889ba" />
+
+ 
 - [TODO] Step 2 
 - [TODO] Step 3 
 - [TODO] Step 
