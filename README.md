@@ -4,7 +4,7 @@
 
 ## Overview
 
-The vision is to have a llm equiped with amazon dataset who will provide further details and reviews from websearch after shortlisting the item from database based on the users requiremnets.
+The vision is to have a llm equiped with amazon dataset who will provide further details and reviews from websearch after shortlisting the item from database based on the users requirements. The link will be replaced with our affliate link. This can be advertised on a platfrom as a new way to search for products as amazon just shows promoted advertised products or their own products first. This is a way to get users to use this service and generate generate business
 
 ---
 
@@ -22,7 +22,9 @@ I plan to execute these steps to complete my project:
   <img width="1561" height="1046" alt="image" src="https://github.com/user-attachments/assets/86a3fe8c-a4b6-4532-a7ff-c7315ae889ba" />
 
  
-- [TODO] Step 2 
+- [TODO] Step 2 Vectoring or making the the database into the from for semantic search. This step came with lots of difficulties. First of all langsmith has paywall for database indexing so the embedding has to be done locally. OpenAI embedding was initiated but at just 1% progress it ate $1 so it was stopped. Now the only option was to use less powerfull, less accurate and more time consuming free embedding options. One attempt reached 90% progress and then failed after 72 min.
+  <img width="1549" height="1006" alt="Screenshot 2025-11-27 185229" src="https://github.com/user-attachments/assets/b03a3316-c9c5-4b69-b9df-29ca3126ec4c" />
+
 - [TODO] Step 3 
 - [TODO] Step 
 
