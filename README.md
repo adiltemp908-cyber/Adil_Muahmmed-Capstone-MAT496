@@ -4,7 +4,7 @@
 
 ## Overview
 
-The vision is to have a llm equiped with amazon dataset who will shortlist the items from database based on the users requirements and provide further details and reviews from websearch. The link will be replaced with our affliate link. This can be advertised on a platfrom as a new way to search for products as amazon just shows promoted advertised products or their own products first. This is a way to get users to use this service and generate generate business.
+The vision is to have a llm equiped with amazon dataset who will shortlist the items from database based on the users requirements and provide further details and reviews from websearch. The link will be replaced with our affliate link. This can be advertised on a platfrom as a new way to search for products as amazon just shows promoted advertised products or their own products first. This is a way to get users to use this service and generate  business.
 
 ---
 
@@ -19,17 +19,17 @@ The first idea was selective news where the user asks for specific categories wh
 I plan to execute these steps to complete my project:
 
 - [DONE] Step 1 Downloading the amazon sub Dataset from kaggle and then formating it and upload to langsmith database. This process failed at beginning due to size constraints then I uploaded it in chunks. Fun fact- The uploading process alone took 34 minutes.
-  <img width="1561" height="1046" alt="image" src="https://github.com/user-attachments/assets/86a3fe8c-a4b6-4532-a7ff-c7315ae889ba" /> <br>
+  <img width="1561" height="1046" alt="image" src="https://github.com/user-attachments/assets/86a3fe8c-a4b6-4532-a7ff-c7315ae889ba" /> <br><br>
 - [Done] Step 2 Vectoring or making the the database into the from for semantic search. This step came with lots of difficulties. First of all langsmith has paywall for database indexing so the embedding has to be done locally. OpenAI embedding was initiated but at just 1% progress it ate $1 so it was stopped. Now the only option was to use less powerfull, less accurate and more time consuming free embedding options. One attempt reached 90% progress and then failed after 72 min.
-  <img width="1549" height="1006" alt="Screenshot 2025-11-27 185229" src="https://github.com/user-attachments/assets/b03a3316-c9c5-4b69-b9df-29ca3126ec4c" /> <br> 
-  The next attempt used different embedding but also failed after 5 hours
-  <img width="1588" height="615" alt="Screenshot 2025-11-28 075946" src="https://github.com/user-attachments/assets/0536196e-eb70-483b-a8e9-07af2c968590" />  <br>
+  <img width="1549" height="1006" alt="Screenshot 2025-11-27 185229" src="https://github.com/user-attachments/assets/b03a3316-c9c5-4b69-b9df-29ca3126ec4c" /> <br> <br>
+  The next attempt used different embedding but also failed after 6 hours
+  <img width="1588" height="615" alt="Screenshot 2025-11-28 075946" src="https://github.com/user-attachments/assets/0536196e-eb70-483b-a8e9-07af2c968590" />  <br><br>
  Finally successfull after another 5 hour attempt
-  <img width="1566" height="805" alt="Screenshot 2025-11-28 125819" src="https://github.com/user-attachments/assets/50d4055f-64c6-466f-bfd2-1c47bd7474ae" /> <br> 
-- [DONE] Step 3 From here I started building the actual notebook. Did the elementary steps here of importing, setting up different things and defined some of the functions.
+  <img width="1566" height="805" alt="Screenshot 2025-11-28 125819" src="https://github.com/user-attachments/assets/50d4055f-64c6-466f-bfd2-1c47bd7474ae" /> <br> <br>
+- [DONE] Step 3 From here I started building the actual notebook. Did the elementary steps here of importing, setting up different things and defined some of the functions. <br>
 - [DONE] Step 4 I completed defining all functions and created langgraph.
-  <img width="1301" height="952" alt="Screenshot 2025-11-28 154615" src="https://github.com/user-attachments/assets/586b472e-ce37-4f0b-a132-b7c28432fcf9" /> <br>
-- [DONE] Step 5 I fixed a lot of errors that became visible when finally running the code. So this was debugging phase
+  <img width="1301" height="952" alt="Screenshot 2025-11-28 154615" src="https://github.com/user-attachments/assets/586b472e-ce37-4f0b-a132-b7c28432fcf9" /> <br><br>
+- [DONE] Step 5 I fixed a lot of errors that became visible when finally running the code. So this was debugging phase. <br>
 - [DONE] Step 6 Now I am going to upload the file. I will also run it a few times and get examples to show here.
 
 
@@ -62,7 +62,7 @@ Third example
 
 The initial plan and all of its components have been achieved although not perfectly. Problems with the final state:
 - The dataset used is of 2023 as other upto datesets were hard to find or behind paywall. Due to this as visible in the example run a lot of the products are currently unavailable.
-- Vectoring process of dataset saved in langsmith is behind their subscription. Furthermore local vectoring of openai was extremely token intensive making that also behind paywall. So had to resort to local free vectoring which    in turn is highly cpu intensisve. This led to many crashes of laptop during random times. This also led to worse results from search(when search was done on soccor ball only one match was found even though there were more than   one in dataset).
+- Vectoring process of dataset saved in langsmith is behind their subscription. Furthermore local vectoring of openai was extremely token intensive making that also behind paywall. So had to resort to local free vectoring which    in turn is highly cpu intensisve. This led to many crashes of laptop during random times. This also led to worse results from search(when search was done on soccor ball only one match was found even though there were more than   one in dataset and sometimes searches return 2 same item as visible in example outputs).
 - Amazon affliate verification has not been obtained yet so in the function it is currently returning original link itself. If affliate tag is obtained changing a flag function will make it return affliate link.
 
-So in conclusion some features that can make this project come to full vision are behind paywall. But still all components are functioning as required and what I set out to achieve intially was achieved. I initially did not expect it to function at this level so I am pleasently surprised.
+So in conclusion some features that can make this project come to full vision are behind paywall. But still all components are functioning as required and what I set out to achieve intially was achieved.The project also implemented all the course elements we were suppossed to and more like parallelization and other stuff. I initially did not expect it to function at this level so I am pleasently surprised.
