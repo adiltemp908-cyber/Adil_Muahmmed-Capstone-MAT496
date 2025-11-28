@@ -35,7 +35,24 @@ I plan to execute these steps to complete my project:
 
 ---
 
-## Example runs
+## Example runs (Outputs)
+
+First Example
+<img width="1543" height="996" alt="Screenshot 2025-11-29 003315" src="https://github.com/user-attachments/assets/baa3ba6b-c8d4-4b74-8db7-180407bfbee2" />
+<img width="1531" height="1026" alt="Screenshot 2025-11-29 003344" src="https://github.com/user-attachments/assets/5a1b7f1b-cfcb-4141-9495-a644754209e5" />
+<img width="1546" height="834" alt="Screenshot 2025-11-29 003408" src="https://github.com/user-attachments/assets/c3089e22-192b-42d3-85e6-63afe66c44a2" />
+<img width="1545" height="744" alt="Screenshot 2025-11-29 003054" src="https://github.com/user-attachments/assets/7fd76fb3-5e22-4250-92b4-26233aa2024e" />
+<br><br>
+Second example
+<img width="1513" height="1017" alt="Screenshot 2025-11-29 000944" src="https://github.com/user-attachments/assets/c820ab85-77d9-4c12-882e-68cfe7612335" />
+<img width="1512" height="999" alt="Screenshot 2025-11-29 001016" src="https://github.com/user-attachments/assets/0efe6e6a-f7e1-4f88-b641-7cd0f7b0cd17" />
+<img width="1517" height="962" alt="Screenshot 2025-11-29 001059" src="https://github.com/user-attachments/assets/6c6c3d71-3cae-4648-8803-48df25f13a2e" />
+<img width="1570" height="815" alt="Screenshot 2025-11-29 000733" src="https://github.com/user-attachments/assets/735a00d9-d752-4ec5-b8d2-4a6e81ec27af" /> <br><br>
+Third example
+<img width="1522" height="971" alt="Screenshot 2025-11-28 231648" src="https://github.com/user-attachments/assets/48216a21-bde7-4f91-8bda-cc1ce2436248" />
+<img width="1496" height="1017" alt="Screenshot 2025-11-28 231725" src="https://github.com/user-attachments/assets/0a241f54-f75c-43a8-9d0b-e4d731407c83" />
+<img width="1456" height="917" alt="Screenshot 2025-11-28 224025" src="https://github.com/user-attachments/assets/0f6523df-1047-42d8-91f1-6e43fc58978e" /> <br>
+
 
 
 
@@ -43,6 +60,9 @@ I plan to execute these steps to complete my project:
 
 ## Conclusion
 
-I had planned to achieve {this this}. I think I have/have-not achieved the conclusion satisfactorily.  
-The reason for your satisfaction/unsatisfaction.
+The initial plan and all of its components have been achieved although not perfectly. Problems with the final state:
+- The dataset used is of 2023 as other upto datesets were hard to find or behind paywall. Due to this as visible in the example run a lot of the products are currently unavailable.
+- Vectoring process of dataset saved in langsmith is behind their subscription. Furthermore local vectoring of openai was extremely token intensive making that also behind paywall. So had to resort to local free vectoring which    in turn is highly cpu intensisve. This led to many crashes of laptop during random times. This also led to worse results from search(when search was done on soccor ball only one match was found even though there were more than   one in dataset).
+- Amazon affliate verification has not been obtained yet so in the function it is currently returning original link itself. If affliate tag is obtained changing a flag function will make it return affliate link.
 
+So in conclusion some features that can make this project come to full vision are behind paywall. But still all components are functioning as required and what I set out to achieve intially was achieved. I initially did not expect it to function at this level so I am pleasently surprised.
