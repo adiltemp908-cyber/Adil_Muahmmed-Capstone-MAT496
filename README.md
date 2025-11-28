@@ -20,17 +20,23 @@ I plan to execute these steps to complete my project:
 
 - [DONE] Step 1 Downloading the amazon sub Dataset from kaggle and then formating it and upload to langsmith database. This process failed at beginning due to size constraints then I uploaded it in chunks. Fun fact- The uploading process alone took 34 minutes.
   <img width="1561" height="1046" alt="image" src="https://github.com/user-attachments/assets/86a3fe8c-a4b6-4532-a7ff-c7315ae889ba" /> <br>
-
- 
 - [Done] Step 2 Vectoring or making the the database into the from for semantic search. This step came with lots of difficulties. First of all langsmith has paywall for database indexing so the embedding has to be done locally. OpenAI embedding was initiated but at just 1% progress it ate $1 so it was stopped. Now the only option was to use less powerfull, less accurate and more time consuming free embedding options. One attempt reached 90% progress and then failed after 72 min.
   <img width="1549" height="1006" alt="Screenshot 2025-11-27 185229" src="https://github.com/user-attachments/assets/b03a3316-c9c5-4b69-b9df-29ca3126ec4c" /> <br> 
   The next attempt used different embedding but also failed after 5 hours
   <img width="1588" height="615" alt="Screenshot 2025-11-28 075946" src="https://github.com/user-attachments/assets/0536196e-eb70-483b-a8e9-07af2c968590" />  <br>
  Finally successfull after another 5 hour attempt
   <img width="1566" height="805" alt="Screenshot 2025-11-28 125819" src="https://github.com/user-attachments/assets/50d4055f-64c6-466f-bfd2-1c47bd7474ae" /> <br> 
-- [TODO] Step 3 From here I started building the actual notebook. Did the elementary steps here of importing, setting up different things and defined some of the functions.
-- [TODO] Step 4 I completed defining all functions and created langgraph.
-  <img width="1301" height="952" alt="Screenshot 2025-11-28 154615" src="https://github.com/user-attachments/assets/586b472e-ce37-4f0b-a132-b7c28432fcf9" />
+- [DONE] Step 3 From here I started building the actual notebook. Did the elementary steps here of importing, setting up different things and defined some of the functions.
+- [DONE] Step 4 I completed defining all functions and created langgraph.
+  <img width="1301" height="952" alt="Screenshot 2025-11-28 154615" src="https://github.com/user-attachments/assets/586b472e-ce37-4f0b-a132-b7c28432fcf9" /> <br>
+- [DONE] Step 5 I fixed a lot of errors that became visible when finally running the code. So this was debugging phase
+- [DONE] Step 6 Now I am going to upload the file. I will also run it a few times and get examples to show here.
+
+
+---
+
+## Example runs
+
 
 
 ---
