@@ -4,7 +4,7 @@
 
 ## Overview
 
-The vision is to have a llm equiped with amazon dataset who will shortlist the items from database based on the users requirements and provide further details and reviews from websearch. The link will be replaced with our affliate link. This can be advertised on a platfrom as a new way to search for products as amazon just shows promoted advertised products or their own products first. This is a way to get users to use this service and generate generate business
+The vision is to have a llm equiped with amazon dataset who will shortlist the items from database based on the users requirements and provide further details and reviews from websearch. The link will be replaced with our affliate link. This can be advertised on a platfrom as a new way to search for products as amazon just shows promoted advertised products or their own products first. This is a way to get users to use this service and generate generate business.
 
 ---
 
@@ -26,10 +26,12 @@ I plan to execute these steps to complete my project:
   <img width="1549" height="1006" alt="Screenshot 2025-11-27 185229" src="https://github.com/user-attachments/assets/b03a3316-c9c5-4b69-b9df-29ca3126ec4c" /> <br> 
   The next attempt used different embedding but also failed after 5 hours
   <img width="1588" height="615" alt="Screenshot 2025-11-28 075946" src="https://github.com/user-attachments/assets/0536196e-eb70-483b-a8e9-07af2c968590" />  <br>
- Finally successfull
+ Finally successfull after another 5 hour attempt
   <img width="1566" height="805" alt="Screenshot 2025-11-28 125819" src="https://github.com/user-attachments/assets/50d4055f-64c6-466f-bfd2-1c47bd7474ae" /> <br> 
-- [TODO] Step 3 From here I started building the actual notebook. Did the elementary steps here of importing, setting up different things and defined some of the functions
-- [TODO] Step 
+- [TODO] Step 3 From here I started building the actual notebook. Did the elementary steps here of importing, setting up different things and defined some of the functions.
+- [TODO] Step 4 I completed defining all functions and created langgraph.
+  <img width="1301" height="952" alt="Screenshot 2025-11-28 154615" src="https://github.com/user-attachments/assets/586b472e-ce37-4f0b-a132-b7c28432fcf9" />
+
 
 ---
 
