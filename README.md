@@ -4,7 +4,8 @@
 
 ## Overview
 
-The vision is to have a llm equiped with amazon dataset who will shortlist the items from database based on the users requirements and provide further details and reviews from websearch. The link will be replaced with our affliate link. This can be advertised on a platfrom as a new way to search for products as amazon just shows promoted advertised products or their own products first. This is a way to get users to use this service and generate  business.
+The vision is to have a llm equiped with amazon dataset who will shortlist the items from database based on the users requirements and provide further details and reviews from websearch. The link will be replaced with our affliate link. This can be advertised on a platfrom as a new way to search for products as amazon just shows promoted advertised products or their own products first. This is a way to get users to use this service and generate  business.<br>
+Video link - https://drive.google.com/file/d/1JBkrJHbkzKlbokW94xzjM88p8KelGUHE/view?usp=sharing
 
 ---
 
@@ -62,7 +63,7 @@ Third example
 
 The initial plan and all of its components have been achieved although not perfectly. Problems with the final state:
 - The dataset used is of 2023 as other upto datesets were hard to find or behind paywall. Due to this as visible in the example run a lot of the products are currently unavailable.
-- Vectoring process of dataset saved in langsmith is behind their subscription. Furthermore local vectoring of openai was extremely token intensive making that also behind paywall. So had to resort to local free vectoring which    in turn is highly cpu intensisve. This led to many crashes of laptop during random times. This also led to worse results from search(when search was done on soccor ball only one match was found even though there were more than   one in dataset and sometimes searches return 2 same item as visible in example outputs).
+- Vectoring process of dataset saved in langsmith is behind their subscription. Furthermore local vectoring of openai was extremely token intensive making that also behind paywall. So had to resort to local free vectoring which    in turn is highly cpu intensisve. This led to many crashes of laptop during random times and worse search results.
 - Amazon affliate verification has not been obtained yet so in the function it is currently returning original link itself. If affliate tag is obtained changing a flag in the function will make it return affliate link.
 
 So in conclusion some features that can make this project come to full vision are behind paywall. But still all components are functioning as required and what I set out to achieve intially was achieved.The project also implemented all the course elements we were suppossed to and more like parallelization and other stuff. I initially did not expect it to function at this level so I am pleasently surprised.
